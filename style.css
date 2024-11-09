@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background:linear-gradient(135deg, #E6E1F7, #B3E5FC);
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+    background-color: #007bff;
+
+}
+
+
+.gad-escrita{
+    font-family: "Anton SC", sans-serif;
+    font-size: 60px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.GAD{
+    font-family: "Days One", sans-serif;
+    font-size: 50px;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+    
+
+}
+.frase{
+    font-family: "Days One", sans-serif;
+    color: azure;
+    font-size: 18px;
+   
+}
+
+.imagem gad {
+    height: 72px;
+}
+
+.conteudo-cabeçalho{
+    display: flex;
+    gap: 32px;
+
+}
+.contato{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sobre{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.conteudo-principal{
+    border-top:  4px solid #000000;;
+    margin-bottom: 48px;
+}
+
+.conteudo-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-escrito-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.conteudo-1{
+    font-family: "Days One", sans-serif;
+}
+.foto-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.fale-conosco{
+    
+        padding: 10px 20px; /* Ajuste o espaço interno do botão */
+        border: none; /* Remove a borda padrão */
+        border-radius: 25px; /* Torna o botão arredondado */
+        background-color: #007bff; /* Cor de fundo (azul no exemplo) */
+        color: white; /* Cor do texto */
+        font-size: 16px; /* Tamanho da fonte */
+        font-weight: bold; /* Deixa o texto em negrito */
+        cursor: pointer; /* Muda o cursor ao passar por cima */
+        
+}
+
+.conteudo-principal-2{
+    display: flex;
+    flex-direction: column;
+    gap: 18PX;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.conteudo-escrito-2{
+    font-family: "Days One", sans-serif; 
+}
+.conteudo-escrito-3{
+    font-family: "Days One", sans-serif; 
+    font-size: 82%;
+}
+
+.imagens{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+
+.imagem-cartao{
+    
+   border-radius: 15%;
+
+  }
+  
+
+.imagem-analise-perfil{
+    border-radius: 15%;
+    }
+
+
+
+.rodape{
+
+    padding: 22px;
+    border-top: 4px solid #000000;
+    
+}
+
+.rodape-imagem{
+    display: block;
+    margin: 0 auto;
+}
